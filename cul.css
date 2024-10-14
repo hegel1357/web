@@ -1,12 +1,10 @@
-/* 設定好寬度後，只要將margin設為auto，就可以達到左右置中 */
-/* 將container div 內的文字顏色都設為灰色 */
+/* styles.css 檔案內容 */
 .container {
     width: 300px;
     margin: auto;
     color: #555555;
 }
 
-/* 表格間的間格 */
 .form-control {
     position: relative;
     margin-top: 40px;
@@ -23,17 +21,16 @@ input {
     padding: 5px;
     font-size: 16px;
     text-align: right;
-    
     border-width: 0px;
     border-bottom: 2px solid #777777;
     outline: none;
     transition: 1s;
- }
- 
- input:focus{
+}
+
+input:focus {
     border-color: blue;
- }
- 
- input:focus+span{
+}
+
+input:focus+span {
     color: blue;
- }
+}
