@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // 匯率
     const ntdToUsdRate = 32.18; // 台幣對美元
-    const ntdToJpyRate = 0.22; // 台幣對日幣
+    const ntdToJpyRate = 0.21; // 台幣對日幣
 
     // 當輸入台幣時觸發的函數
     function ntd_to_else() {
